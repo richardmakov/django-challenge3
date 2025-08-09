@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-a8=^xrjv$v8(ol7^=h988#)g1e92o9fq(85lb2ld%8gjq$j4_%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 ASGI_APPLICATION = 'config.asgi.application'
 
